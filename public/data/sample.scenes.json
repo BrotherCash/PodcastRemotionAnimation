@@ -1,0 +1,32 @@
+[
+  {
+    "sceneId": "s1",
+    "startMs": 0,
+    "endMs": 10000,
+    "activeSpeaker": "host1",
+    "slide": {
+      "title": "Знакомство",
+      "bullets": [
+        "Кто мы такие",
+        "О чём этот подкаст"
+      ],
+      "icon": "Mic",
+      "category": "spark"
+    }
+  },
+  {
+    "sceneId": "s2",
+    "startMs": 10000,
+    "endMs": 20000,
+    "activeSpeaker": "host2",
+    "slide": {
+      "title": "Тема выпуска",
+      "bullets": [
+        "Автоматизация видео",
+        "Remotion + Claude Code"
+      ],
+      "icon": "Video",
+      "category": "codeBuilds"
+    }
+  }
+]

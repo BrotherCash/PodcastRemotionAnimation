@@ -1,0 +1,482 @@
+[
+  {
+    "sceneId": "s01",
+    "startMs": 111,
+    "endMs": 20943,
+    "activeSpeaker": "host1",
+    "slide": {
+      "title": "Идеальный ролик без единого кадра",
+      "bullets": [
+        "Программа не посмотрела ни кадра",
+        "Как это вообще возможно?"
+      ],
+      "icon": "Clapperboard",
+      "category": "spark"
+    }
+  },
+  {
+    "sceneId": "s02",
+    "startMs": 20943,
+    "endMs": 53022,
+    "activeSpeaker": "both",
+    "slide": {
+      "title": "От пикселей к коду",
+      "bullets": [
+        "Видео — алгоритмическое описание сцены",
+        "Таймлайн исчезает"
+      ],
+      "icon": "Code",
+      "category": "codeBuilds"
+    }
+  },
+  {
+    "sceneId": "s03",
+    "startMs": 53022,
+    "endMs": 90922,
+    "activeSpeaker": "host1",
+    "slide": {
+      "title": "Материалы для разбора",
+      "bullets": [
+        "Remotion, HyperFrames, статьи и кейсы",
+        "Цель — выбрать лучший инструмент"
+      ],
+      "icon": "BookOpen",
+      "category": "comparison"
+    }
+  },
+  {
+    "sceneId": "s04",
+    "startMs": 90922,
+    "endMs": 135300,
+    "activeSpeaker": "host1",
+    "slide": {
+      "title": "Миссия эпизода",
+      "bullets": [
+        "Как выбрать инструмент без перегруза",
+        "Фундаментальная проблема: объём видео"
+      ],
+      "icon": "Target",
+      "category": "spark"
+    }
+  },
+  {
+    "sceneId": "s05",
+    "startMs": 135300,
+    "endMs": 164358,
+    "activeSpeaker": "host2",
+    "slide": {
+      "title": "Видео весит тонну",
+      "bullets": [
+        "Час видео = 108 000 кадров",
+        "LLM захлёбывается в пикселях"
+      ],
+      "icon": "Database",
+      "category": "dataOverload"
+    }
+  },
+  {
+    "sceneId": "s06",
+    "startMs": 164358,
+    "endMs": 183384,
+    "activeSpeaker": "both",
+    "slide": {
+      "title": "ИИ должен читать видео, а не смотреть",
+      "bullets": [
+        "Проект VideoUse от BrowserUse",
+        "Распознавание речи вместо кадров"
+      ],
+      "icon": "Eye",
+      "category": "aiReads"
+    }
+  },
+  {
+    "sceneId": "s07",
+    "startMs": 183384,
+    "endMs": 198772,
+    "activeSpeaker": "host2",
+    "slide": {
+      "title": "WhisperX: тайм-коды до миллисекунды",
+      "bullets": [
+        "Видео → лёгкая текстовая структура",
+        "Каждое слово с точным временем"
+      ],
+      "icon": "AudioLines",
+      "category": "aiReads"
+    }
+  },
+  {
+    "sceneId": "s08",
+    "startMs": 198772,
+    "endMs": 231607,
+    "activeSpeaker": "host2",
+    "slide": {
+      "title": "EDL: план монтажа в JSON",
+      "bullets": [
+        "ИИ редактирует текст, а не видео",
+        "Экономия токенов контекста"
+      ],
+      "icon": "FileJson",
+      "category": "aiReads"
+    }
+  },
+  {
+    "sceneId": "s09",
+    "startMs": 231607,
+    "endMs": 263804,
+    "activeSpeaker": "both",
+    "slide": {
+      "title": "Шеф-повар с завязанными глазами",
+      "bullets": [
+        "Монтаж по рецепту — граммы и секунды",
+        "«Пробует соус», когда сомневается"
+      ],
+      "icon": "ChefHat",
+      "category": "aiReads"
+    }
+  },
+  {
+    "sceneId": "s10",
+    "startMs": 263804,
+    "endMs": 296816,
+    "activeSpeaker": "host2",
+    "slide": {
+      "title": "Точечный визуальный запрос",
+      "bullets": [
+        "Агент генерирует один PNG-композит",
+        "Раскадровка + волна + метки слов"
+      ],
+      "icon": "Image",
+      "category": "aiReads"
+    }
+  },
+  {
+    "sceneId": "s11",
+    "startMs": 296816,
+    "endMs": 317550,
+    "activeSpeaker": "both",
+    "slide": {
+      "title": "Когда видео нет вообще",
+      "bullets": [
+        "Текстового транскрипта уже не хватает",
+        "Нужна генерация с нуля"
+      ],
+      "icon": "Sparkles",
+      "category": "spark"
+    }
+  },
+  {
+    "sceneId": "s12",
+    "startMs": 317550,
+    "endMs": 337291,
+    "activeSpeaker": "host2",
+    "slide": {
+      "title": "Remotion: видео как React-компонент",
+      "bullets": [
+        "Строгая парадигма программной инженерии",
+        "Никакого таймлайна"
+      ],
+      "icon": "Component",
+      "category": "codeBuilds"
+    }
+  },
+  {
+    "sceneId": "s13",
+    "startMs": 337291,
+    "endMs": 364345,
+    "activeSpeaker": "both",
+    "slide": {
+      "title": "Чистая функция от номера кадра",
+      "bullets": [
+        "useCurrentFrame() и жёсткая математика",
+        "15 сек при 30 fps = 450 кадров"
+      ],
+      "icon": "Sigma",
+      "category": "codeBuilds"
+    }
+  },
+  {
+    "sceneId": "s14",
+    "startMs": 364345,
+    "endMs": 390277,
+    "activeSpeaker": "host1",
+    "slide": {
+      "title": "Реверс-инжиниринг референсов",
+      "bullets": [
+        "Кейс Eric Tech: промо для Bookkeepers Cloud",
+        "Чужие ролики → Markdown через AI Studio"
+      ],
+      "icon": "Wand2",
+      "category": "spark"
+    }
+  },
+  {
+    "sceneId": "s15",
+    "startMs": 390277,
+    "endMs": 416194,
+    "activeSpeaker": "both",
+    "slide": {
+      "title": "Переиспользуемые React-компоненты",
+      "bullets": [
+        "Кнопки, графики, текстовые плашки",
+        "Сцены собираются из кубиков по промпту"
+      ],
+      "icon": "Blocks",
+      "category": "codeBuilds"
+    }
+  },
+  {
+    "sceneId": "s16",
+    "startMs": 416194,
+    "endMs": 436550,
+    "activeSpeaker": "host1",
+    "slide": {
+      "title": "Видео под контролем версий",
+      "bullets": [
+        "Каждый пиксель — как код на GitHub",
+        "Плюс для командной работы"
+      ],
+      "icon": "GitBranch",
+      "category": "codeBuilds"
+    }
+  },
+  {
+    "sceneId": "s17",
+    "startMs": 436550,
+    "endMs": 464608,
+    "activeSpeaker": "host2",
+    "slide": {
+      "title": "Обратная сторона: тяжёлый рендер",
+      "bullets": [
+        "Headless Chromium и 900 скриншотов",
+        "Нужен облачный Remotion Lambda"
+      ],
+      "icon": "Cpu",
+      "category": "dataOverload"
+    }
+  },
+  {
+    "sceneId": "s18",
+    "startMs": 464608,
+    "endMs": 487085,
+    "activeSpeaker": "host1",
+    "slide": {
+      "title": "HyperFrames: чистый HTML и CSS",
+      "bullets": [
+        "Совсем другой подход, не React",
+        "Разбор в японском блоге на Note.com"
+      ],
+      "icon": "FileCode",
+      "category": "codeBuilds"
+    }
+  },
+  {
+    "sceneId": "s19",
+    "startMs": 487085,
+    "endMs": 504171,
+    "activeSpeaker": "host1",
+    "slide": {
+      "title": "LLM пишет HTML лучше, чем React",
+      "bullets": [
+        "Меньше ошибок, меньше сложных состояний",
+        "Открывает двери для новых фишек"
+      ],
+      "icon": "SquareCode",
+      "category": "codeBuilds"
+    }
+  },
+  {
+    "sceneId": "s20",
+    "startMs": 504171,
+    "endMs": 527401,
+    "activeSpeaker": "both",
+    "slide": {
+      "title": "Навык Music-to-Video",
+      "bullets": [
+        "Видео подстраивается под аудио",
+        "Analyze Beatgrid сканирует трек"
+      ],
+      "icon": "Music",
+      "category": "rhythm"
+    }
+  },
+  {
+    "sceneId": "s21",
+    "startMs": 527401,
+    "endMs": 569331,
+    "activeSpeaker": "host2",
+    "slide": {
+      "title": "Можно ли доверять чувству ритма машины?",
+      "bullets": [
+        "Режим BeatCut — жёсткие склейки под бит",
+        "Режим PhraseFlow — плавные переходы"
+      ],
+      "icon": "Waves",
+      "category": "rhythm"
+    }
+  },
+  {
+    "sceneId": "s22",
+    "startMs": 569331,
+    "endMs": 598764,
+    "activeSpeaker": "host1",
+    "slide": {
+      "title": "Риск армии одинаковых роликов",
+      "bullets": [
+        "Разбор Игоря Зуева: Cloud Design",
+        "Агент переписывает дизайн под бренд"
+      ],
+      "icon": "Palette",
+      "category": "selfCheck"
+    }
+  },
+  {
+    "sceneId": "s23",
+    "startMs": 598764,
+    "endMs": 623500,
+    "activeSpeaker": "host2",
+    "slide": {
+      "title": "Remotion vs HyperFrames: раунд 1",
+      "bullets": [
+        "Remotion идеален для дата-центричных видео",
+        "Дэшборды и графики"
+      ],
+      "icon": "BarChart3",
+      "category": "comparison"
+    }
+  },
+  {
+    "sceneId": "s24",
+    "startMs": 623500,
+    "endMs": 641840,
+    "activeSpeaker": "both",
+    "slide": {
+      "title": "Хрупкость Remotion",
+      "bullets": [
+        "Ошибка в теге Sequence — и всё на нулевом кадре",
+        "HyperFrames более агентно-ориентирован"
+      ],
+      "icon": "AlertTriangle",
+      "category": "comparison"
+    }
+  },
+  {
+    "sceneId": "s25",
+    "startMs": 641840,
+    "endMs": 666419,
+    "activeSpeaker": "host1",
+    "slide": {
+      "title": "Ролик из одной ссылки или аудио",
+      "bullets": [
+        "Проект HyperFrames AI Video Generation",
+        "Идеально для YouTube Shorts"
+      ],
+      "icon": "Link",
+      "category": "comparison"
+    }
+  },
+  {
+    "sceneId": "s26",
+    "startMs": 666419,
+    "endMs": 692395,
+    "activeSpeaker": "both",
+    "slide": {
+      "title": "Контрол-фрик против вайб-кодера",
+      "bullets": [
+        "Remotion — идеальный React-компонент",
+        "HyperFrames — скорость здесь и сейчас"
+      ],
+      "icon": "Scale",
+      "category": "comparison"
+    }
+  },
+  {
+    "sceneId": "s27",
+    "startMs": 692395,
+    "endMs": 712092,
+    "activeSpeaker": "host1",
+    "slide": {
+      "title": "Слова-паразиты ИИ не вырезать идеально",
+      "bullets": [
+        "Разбор на Practically AI",
+        "ИИ сканирует видео сэмплами, не миллисекундами"
+      ],
+      "icon": "MicOff",
+      "category": "selfCheck"
+    }
+  },
+  {
+    "sceneId": "s28",
+    "startMs": 712092,
+    "endMs": 737039,
+    "activeSpeaker": "host1",
+    "slide": {
+      "title": "Как ИИ обходит собственные ошибки",
+      "bullets": [
+        "Кейс XDA: FFmpeg не смог отрендерить субтитры",
+        "Claude Code нарисовал каждое слово PNG-картинкой"
+      ],
+      "icon": "Lightbulb",
+      "category": "selfCheck"
+    }
+  },
+  {
+    "sceneId": "s29",
+    "startMs": 737039,
+    "endMs": 757614,
+    "activeSpeaker": "host2",
+    "slide": {
+      "title": "Петля self-evaluation",
+      "bullets": [
+        "Рендер → проверка → исправление",
+        "Жёсткий лимит: три попытки"
+      ],
+      "icon": "RefreshCw",
+      "category": "selfCheck"
+    }
+  },
+  {
+    "sceneId": "s30",
+    "startMs": 757614,
+    "endMs": 792214,
+    "activeSpeaker": "host2",
+    "slide": {
+      "title": "Где заканчивается алгоритм и начинается человек",
+      "bullets": [
+        "Технические дефекты исправляет ИИ",
+        "Творческие решения — за человеком (Hard Rules)"
+      ],
+      "icon": "Users",
+      "category": "humanAI"
+    }
+  },
+  {
+    "sceneId": "s31",
+    "startMs": 792214,
+    "endMs": 805637,
+    "activeSpeaker": "both",
+    "slide": {
+      "title": "Итоги: видео как программный код",
+      "bullets": [
+        "Больше не нужно двигать ползунки",
+        "Главное — чётко формулировать промпты"
+      ],
+      "icon": "CheckCircle2",
+      "category": "humanAI"
+    }
+  },
+  {
+    "sceneId": "s32",
+    "startMs": 805637,
+    "endMs": 849502,
+    "activeSpeaker": "host1",
+    "slide": {
+      "title": "Умрут ли классические видеоредакторы?",
+      "bullets": [
+        "Снижение цены и рост доступности моделей",
+        "Видео как компиляция кода нейросетью"
+      ],
+      "icon": "HelpCircle",
+      "category": "comparison"
+    }
+  }
+]

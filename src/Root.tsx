@@ -1,10 +1,10 @@
 import "./index.css";
-import { MyComposition } from "./Composition";
+import { PodcastVideoComposition } from "./Composition";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
-      <MyComposition />
+      <PodcastVideoComposition />
     </>
   );
 };

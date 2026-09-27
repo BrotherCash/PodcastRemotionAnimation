@@ -5,3 +5,12 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# Python venv + intermediate WhisperX output for the preprocessing scripts
+scripts/.venv
+scripts/out
+scripts/.hf_token
+scripts/__pycache__
+
+# Unused source audio, not referenced by any composition
+public/audio/Монтаж_видео_программным_кодом_без_таймлайна.m4a

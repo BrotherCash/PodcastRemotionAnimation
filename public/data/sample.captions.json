@@ -1,0 +1,13 @@
+[
+  { "text": "Привет", "startMs": 0, "endMs": 400, "timestampMs": 200, "confidence": 0.95 },
+  { "text": " и", "startMs": 400, "endMs": 550, "timestampMs": 475, "confidence": 0.95 },
+  { "text": " добро", "startMs": 550, "endMs": 900, "timestampMs": 725, "confidence": 0.95 },
+  { "text": " пожаловать", "startMs": 900, "endMs": 1500, "timestampMs": 1200, "confidence": 0.95 },
+  { "text": " в", "startMs": 1500, "endMs": 1600, "timestampMs": 1550, "confidence": 0.95 },
+  { "text": " наш", "startMs": 1600, "endMs": 1900, "timestampMs": 1750, "confidence": 0.95 },
+  { "text": " подкаст.", "startMs": 1900, "endMs": 2500, "timestampMs": 2200, "confidence": 0.95, "pageBreakAfter": true },
+  { "text": "Сегодня", "startMs": 10200, "endMs": 10700, "timestampMs": 10450, "confidence": 0.95 },
+  { "text": " поговорим", "startMs": 10700, "endMs": 11300, "timestampMs": 11000, "confidence": 0.95 },
+  { "text": " про", "startMs": 11300, "endMs": 11500, "timestampMs": 11400, "confidence": 0.95 },
+  { "text": " Remotion.", "startMs": 11500, "endMs": 12300, "timestampMs": 11900, "confidence": 0.95 }
+]
