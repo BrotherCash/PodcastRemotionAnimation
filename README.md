@@ -18,10 +18,6 @@
 Единственные внешние ассеты — портреты ведущих и фон студии (см. раздел
 про их подготовку ниже), это картинки в `public/`, а не код.
 
-Полная хронология решений, экспериментов и найденных багов — в дневнике
-проекта (Claude Docs):
-https://claude.ai/artifact/PfZJu5waGn92W7CNhw8WUk
-
 ## Пайплайн целиком
 
 ```
@@ -231,5 +227,3 @@ npx remotion render PodcastVideo out/sample.mp4                # sample/dev
   для тех, кто продолжает разработку.
 - [`scripts/README.md`](scripts/README.md) — полный пошаговый гайд по
   препроцессингу аудио с командами и troubleshooting.
-- [Дневник проекта](https://claude.ai/artifact/PfZJu5waGn92W7CNhw8WUk) —
-  хронология всех шагов, экспериментов и находок по сессиям.
